@@ -10,9 +10,8 @@ for (var i=0;i<drumLength;i++)
 
         var buttonInnerHTML = this.innerHTML;
         makeSound(buttonInnerHTML);
-         buttonAnimation(buttonInnerHTML);
-    }
-    );
+        buttonAnimation(buttonInnerHTML);
+    });
 }
 
 
@@ -23,7 +22,7 @@ document.addEventListener("keypress",function(event)
 {
     makeSound(event.key);
     buttonAnimation(event.key);
-})
+});
 
 
 
